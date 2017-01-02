@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/spacing_medium"
+    android:paddingRight="@dimen/spacing_medium">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_username"
+        style="@style/formElement"
+        android:hint="@string/form.username"
+        android:labelFor="@+id/name">
+
+        <EditText
+            android:id="@+id/username"
+            style="@style/formEditText"
+            android:inputType="text"
+            android:lines="1" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_password"
+        style="@style/formElement"
+        android:hint="@string/form.password"
+        android:labelFor="@+id/name">
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/formEditText"
+            android:inputType="text"
+            android:lines="1" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form.login"
+
+            />
+
+        <ProgressBar
+            android:id="@+id/pb"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

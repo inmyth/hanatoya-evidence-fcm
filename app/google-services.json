@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "385466444155",
+    "firebase_url": "https://evidence-messaging.firebaseio.com",
+    "project_id": "evidence-messaging",
+    "storage_bucket": "evidence-messaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385466444155:android:20ba71b3c3315096",
+        "android_client_info": {
+          "package_name": "jp.hanatoya.evidence.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385466444155-ld47ppbk7lgitci3qph6ba62b223u7nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpCekDJ98A3iC9quZ7m9KAl-8s7BwXsM8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Hanatoya Evidence FCM</string>
+
+    <string name="error.required">Required</string>
+
+    <string name="form.password">Password</string>
+    <string name="form.username">Username</string>
+    <string name="form.login">Login</string>
+
+    <string name="menu.web">To Website</string>
+
+    <string name="preference.username">jp.hanatoya.evidence.PREFERENCE_USERNAME</string>
+    <string name="preference.password">jp.hanatoya.evidence.PREFERENCE_PASSWORD</string>
+    <string name="preference.fcmtoken">jp.hanatoya.evidence.PREFERENCE_FCMTOKEN</string>
+
+
+</resources>
